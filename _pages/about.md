@@ -4,7 +4,6 @@ title: "Academic Pages is a ready-to-fork GitHub Pages template for academic per
 author_profile: true
 redirect_from: 
   - /about/
-  - /about.html
 ---
 
 Write here information about
