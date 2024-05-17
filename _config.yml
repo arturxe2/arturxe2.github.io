@@ -21,7 +21,7 @@ repository               : "arturxe2/arturxe2.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "foto_artur_departament.jpeg.png"
+  avatar           : "foto_artur_departament.jpeg"
   name             : "Artur Xarles"
   pronouns         : # example: "she/her"  
   bio              : "Include biography here"
