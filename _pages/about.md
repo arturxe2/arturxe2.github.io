@@ -16,10 +16,28 @@ In 2021, I earned my Bachelor's degree in Applied Statistics from <a href="https
 
 <div style="display: flex; flex-direction: row; gap: 20px;">
   <div style="flex: 1;">
+  <b> Aug 1, 2023</b>
+  </div>
+  <div style="flex: 4;">
+    <b>T-DEED</b> has been accepted at CVsports at CVPRW.🥳
+  </div>
+</div>
+
+<div style="display: flex; flex-direction: row; gap: 20px;">
+  <div style="flex: 1;">
+  <b> Aug 1, 2023</b>
+  </div>
+  <div style="flex: 4;">
+    My first PhD publication, <b>ASTRA</b>, has been accepted at ACM Workshop on Multimedia Content Analysis in Sports.🥳
+  </div>
+</div>
+
+<div style="display: flex; flex-direction: row; gap: 20px;">
+  <div style="flex: 1;">
   <b> Feb 13, 2023</b>
   </div>
   <div style="flex: 4;">
-    I started a PhD on Computer Vision under the supervision of Prof. Sergio Escalera, Prof. Albert Clapés, and Prof. Thomas B. Moeslund, at Universitat de Barcelona. 
+    I started a PhD on Computer Vision under the supervision of Prof. Sergio Escalera, Prof. Albert Clapés, and Prof. Thomas B. Moeslund, at Universitat de Barcelona.🤓
   </div>
 </div>
 
