@@ -11,7 +11,7 @@ My name is <b>Artur Xarles</b>, and I am currently pursuing a PhD at <a href="ht
 
 In 2021, I earned my Bachelor's degree in Applied Statistics from <a href="https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467950436.html">Universitat Autònoma de Barcelona</a> (UAB), followed by a Master's degree in Fundamental Principles of Data Science from Universitat de Barcelona (UB). My Master's thesis, supervised by Sergio Escalera and Albert Clapés in the <a href="https://sergioescalera.com/students/">HuPBA group</a>, was centered on the task of action spotting in soccer videos. This work received the award for the second-best BSc or MSc thesis in Applied Artificial Intelligence from the <a href="https://www.acia.cat/">Catalan Association for Artificial Intelligence</a>.
 
-## News
+<title> News
 
 
 </div>
