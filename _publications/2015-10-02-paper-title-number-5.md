@@ -2,7 +2,7 @@
 title: "Paper Title Number 5"
 collection: publications
 permalink: /publication/2015-10-02-paper-title-number-5
-excerpt: 'Abstract: TheSoccerNet 2022 challenges were the second annual video understanding challenges organized by the SoccerNet team. In 2022, the challenges were composed of 6 vision-based tasks: (1) action spotting, focusing on retrieving action timestamps in long untrimmed videos, (2) replay grounding, focusing on retrieving the live moment of an action shown in a replay, (3) pitch localization, focusing on detecting line and goal part elements, (4) camera calibration, dedicated to retrieving the intrinsic and extrinsic camera parameters, (5) player re-identi￿cation, focusing on retrieving the same players across multiple views, and (6) multiple object tracking, focusing on tracking players and the ball through unedited video streams. Compared to last years challenges, tasks (1-2) had their evaluation metrics rede￿ned to consider tighter temporal accuracies, and tasks (3-6) were novel, including their underlying data and annotations.'
+excerpt: 'some random staff'
 date: 2015-10-01
 venue: 'Journal 1'
 slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
