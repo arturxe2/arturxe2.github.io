@@ -3,17 +3,14 @@ main:
   - title: "About"
     url: /about/
 
-  - title: "Publications"
-    url: /publications/
-
   - title: "Projects"
     url: /talks/    
+
+  - title: "Publications"
+    url: /publications/
 
   - title: "Teaching"
     url: /teaching/    
 
   - title: "CV"
     url: /files/cv.pdf
-    
-  - title: "Guide"
-    url: /markdown/
