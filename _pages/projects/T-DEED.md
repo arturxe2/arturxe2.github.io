@@ -50,13 +50,18 @@ author_profile: true
                 <div class="d-flex align-items-center justify-content-center" style="margin-top: 30px">
                     <div class="project-narrow" id="abstract" style="text-align: justify;">
                         <h3 style="text-align: center;">Architecture</h3>
-                        <i>Our solution, ASTRA, leverages embeddings \( \mathcal{E} \) from multiple modalities to achieve its goals. Specifically, ASTRA is built upon \( | \mathcal{E} | - 1 \) pre-computed visual embeddings, complemented by an additional audio embedding derived from the log-mel spectrogram of the audio using a VGG-inspired backbone. The network responsible for generating this audio embedding is jointly trained with the ASTRA model. The embeddings are input to the model in clips spanning a duration of \( T \) seconds.
-
-                        These features from each backbone are processed in parallel streams, where Point-wise Feed-Forward Networks (PFFN) project them to a common dimension \( d \). The projected embeddings are then combined in the subsequent Transformer encoder-decoder module, with learnable queries in the decoder. Inspired by the architecture proposed in DETR, this module enables ASTRA to handle different input and output temporal dimensions \( L_{\text{in}} \) and \( L_{\text{out}} \), respectively, and facilitates a straightforward fusion of multiple embeddings.
-
-                        To enhance ASTRA's ability to capture fine-grained details, we introduce a temporally hierarchical architecture for the Transformer encoder. This architecture enables the encoder to attend to more local information in the initial layers and reduces the computational cost. Finally, ASTRA employs two prediction heads to generate classification and displacement predictions for the anchors introduced by Soares et al. These anchors correspond to specific temporal positions and class actions, as described in their work. Additionally, we adopt their suggestion of employing a radius for both classification and displacement \( r_{c} \) and \( r_{d} \), respectively, to define the temporal range around a ground-truth action within which it can be detected.
-
-                        Furthermore, to account for label uncertainty, ASTRA adapts the prediction head responsible for displacement by modeling them as Gaussian distributions instead of deterministic temporal positions. This allows ASTRA to capture temporal location uncertainty and provide a more comprehensive representation of the actions. Additionally, ASTRA incorporates a balanced mixup technique to improve model generalization and accommodate the long-tail distribution of the data.</i>
+                        <p>
+                            Our model, Temporal-Discriminability Enhancer Encoder-Decoder (T-DEED), is designed to increase token discriminability for Precise Event Spotting (PES) while leveraging multiple temporal scales. As illustrated in Figure~1, T-DEED comprises three main blocks: a feature extractor, a temporally discriminant encoder-decoder, and a prediction head.
+                        </p>
+                        <p>
+                            We process videos through fixed-length clips, each containing \( L \) densely sampled frames. The feature extractor, composed of a 2D backbone with Gate-Shift-Fuse (GSF) modules, handles the input frames, generating per-frame representations of dimension \( d \), hereby referred to as <i>tokens</i>. These tokens undergo further refinement within the temporally discriminant encoder-decoder. This module employs SGP layers which -- as shown by Shi et al. -- diminish token similarity, thereby boosting discriminability across tokens of the same sequence.
+                        </p>
+                        <p>
+                            The encoder-decoder architecture allows the processing of features across diverse temporal scales, helpful for detecting events requiring different amounts of temporal context. We also integrate skip connections to preserve the fine-grained information from the initial layers. To effectively merge information proceeding from varying temporal scales in the skip connections, we introduce the SGP-Mixer layer, detailed in Section 2. This layer employs the same principles as the SGP layer to enhance token discriminability while gathering information from varying range temporal windows.
+                        </p>
+                        <p>
+                            Finally, the output tokens are directed to the prediction head, resembling those commonly used in Action Spotting (AS) literature. It encompasses a classification component to identify whether an event occurs at the given temporal position or in close proximity (within a radius of \( r_{E} \) frames). Additionally, for the positive classifications, a displacement component pinpoints the exact temporal position of ground truth events.
+                        </p>
                     </div>
                 </div>
                 <div style="margin-top:20px">
