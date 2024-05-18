@@ -5,11 +5,11 @@ main:
 
   - title: "Projects"
     url: /projects/    
-      subsections:
-        - title: "T-DEED"
-          url: /projects/T-DEED/
-        - title: "ASTRA"
-          url: /projects/ASTRA/
+    subsections:
+      - title: "T-DEED"
+        url: /projects/T-DEED/
+      - title: "ASTRA"
+        url: /projects/ASTRA/
 
   - title: "Publications"
     url: /publications/
