@@ -51,7 +51,7 @@ author_profile: true
                     <div class="project-narrow" id="abstract" style="text-align: justify;">
                         <h3 style="text-align: center;">Architecture</h3>
                         <p>
-                            Our model, Temporal-Discriminability Enhancer Encoder-Decoder (T-DEED), is designed to increase token discriminability for Precise Event Spotting (PES) while leveraging multiple temporal scales. As illustrated in Figure~1, T-DEED comprises three main blocks: a feature extractor, a temporally discriminant encoder-decoder, and a prediction head.
+                            Our model, Temporal-Discriminability Enhancer Encoder-Decoder (T-DEED), is designed to increase token discriminability for Precise Event Spotting (PES) while leveraging multiple temporal scales. As illustrated in the Figure, T-DEED comprises three main blocks: a feature extractor, a temporally discriminant encoder-decoder, and a prediction head.
                         </p>
                         <p>
                             We process videos through fixed-length clips, each containing \( L \) densely sampled frames. The feature extractor, composed of a 2D backbone with Gate-Shift-Fuse (GSF) modules, handles the input frames, generating per-frame representations of dimension \( d \), hereby referred to as <i>tokens</i>. These tokens undergo further refinement within the temporally discriminant encoder-decoder. This module employs SGP layers which -- as shown by Shi et al. -- diminish token similarity, thereby boosting discriminability across tokens of the same sequence.
