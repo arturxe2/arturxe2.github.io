@@ -7,23 +7,23 @@ author_profile: true
 <div class="post">
                 <header class="project-title" style="text-align: center; margin-top: 2em">
                     <h1 class="project-title" style="font-weight: bold; color: #404040">ASTRA: An Action Spotting TRAnsformer for Soccer Videos</h1>
-                    <p class="project-venue" style="font-size: 2.5em;">ACM </p>
+                    <p class="project-venue" style="font-size: 2.5em;">ACM Workshop on Multimedia Content Analysis in Sports, 2023 </p>
                     <h3>
-                        <a href="https://scholar.google.com/citations?user=pRC8DwcAAAAJ&amp;hl=en" rel="external nofollow noopener" target="_blank">German Barquero</a>
+                        <a href="https://scholar.google.es/citations?user=MNdw5eYAAAAJ&hl=ca&amp;hl=en" rel="external nofollow noopener" target="_blank">Artur Xarles</a>
                         , <a href="https://scholar.google.com/citations?user=oI6AIkMAAAAJ&amp;hl=en&amp;oi=ao" rel="external nofollow noopener" target="_blank">Sergio Escalera</a>
-                        , and <a href="https://scholar.google.com/citations?user=V0c9xx0AAAAJ&amp;hl=en&amp;oi=ao" rel="external nofollow noopener" target="_blank">Cristina Palmero</a>
+                        , <a href="https://scholar.google.es/citations?user=XmkDts4AAAAJ&hl=ca&oi=ao&amp;hl=en&amp;oi=ao" rel="external nofollow noopener" target="_blank">Thomas B. Moeslund</a>
+                        , and <a href="https://scholar.google.es/citations?user=n4BtpPsAAAAJ&hl=ca&oi=ao&amp;hl=en&amp;oi=ao" rel="external nofollow noopener" target="_blank">Albert Clapés</a>
                     </h3>
-                    <h5>University of Barcelona and Computer Vision Center, Spain</h5>
+                    <h5>University of Barcelona, Computer Vision Center, and Aalborg University</h5>
                     <div class="publications project-links">
-                        <a href="https://openaccess.thecvf.com/content/ICCV2023/html/Barquero_BeLFusion_Latent_Diffusion_for_Behavior-Driven_Human_Motion_Prediction_ICCV_2023_paper.html" class="btn" role="button" rel="external nofollow noopener" target="_blank">Paper</a>
-                        <a href="https://arxiv.org/abs/2211.14304" class="btn" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
-                        <a href="https://github.com/BarqueroGerman/BeLFusion" class="btn" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+                        <a href="https://arxiv.org/abs/2404.01891" class="btn" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+                        <a href="https://github.com/arturxe2/ASTRA" class="btn" role="button" rel="external nofollow noopener" target="_blank">Code</a>
                     </div>
                 </header>
                 <div style="margin-top:20px">
                     <figure>
                         <picture>
-                            <img src="/assets/img/belfusion/intro.png" class="figure-padding img-fluid rounded z-depth-1" width="100%" height="auto" title="BeLFusion" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+                            <img src="/images/foto_artur_departament.jpeg" class="figure-padding img-fluid rounded z-depth-1" width="100%" height="auto" title="ASTRA" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
                         </picture>
                     </figure>
                 </div>
