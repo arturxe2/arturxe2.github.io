@@ -8,6 +8,11 @@ main:
 
   - title: "Publications"
     url: /publications/
+    subsections:
+        - title: "T-DEED"
+          url: /projects/T-DEED/
+        - title: "ASTRA"
+          url: /projects/ASTRA/
 
   - title: "Teaching"
     url: /teaching/    
