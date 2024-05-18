@@ -21,13 +21,6 @@ author_profile: true
                         <a href="https://github.com/arturxe2/ASTRA" class="btn" role="button" rel="external nofollow noopener" target="_blank">Code</a>
                     </div>
                 </header>
-                <div style="margin-top:20px">
-                    <figure>
-                        <picture>
-                            <img src="/images/ASTRA_diagram.png" class="figure-padding img-fluid rounded z-depth-1" width="100%" height="auto" title="Nonvisible" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-                        </picture>
-                    </figure>
-                </div>
                 <div class="d-flex align-items-center justify-content-center" style="margin-top: 30px">
                     <div class="project-narrow" id="abstract" style="text-align: justify;">
                         <h3 style="text-align: center;">Abstract</h3>
@@ -58,6 +51,13 @@ author_profile: true
 
                         Furthermore, to account for label uncertainty, ASTRA adapts the prediction head responsible for displacement by modeling them as Gaussian distributions instead of deterministic temporal positions. This allows ASTRA to capture temporal location uncertainty and provide a more comprehensive representation of the actions. Additionally, ASTRA incorporates a balanced mixup technique to improve model generalization and accommodate the long-tail distribution of the data.
                     </div>
+                </div>
+                <div style="margin-top:20px">
+                    <figure>
+                        <picture>
+                            <img src="/images/ASTRA_diagram.png" class="figure-padding img-fluid rounded z-depth-1" width="100%" height="auto" title="Nonvisible" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+                        </picture>
+                    </figure>
                 </div>
                 <div class="d-flex align-items-center justify-content-center" style="margin-top: 30px">
                     <div class="project-narrow" id="bibtex" style="text-align: left;">
