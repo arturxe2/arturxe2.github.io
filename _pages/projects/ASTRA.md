@@ -22,7 +22,7 @@ author_profile: true
                 <div style="margin-top:20px">
                     <figure>
                         <picture>
-                            <img src="/images/ASTRA_diagram.png" class="figure-padding img-fluid rounded z-depth-1" width="100%" height="auto" title="ASTRA" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+                            <img src="/images/nonvisible.png" class="figure-padding img-fluid rounded z-depth-1" width="100%" height="auto" title="Nonvisible" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
                         </picture>
                     </figure>
                 </div>
@@ -37,6 +37,13 @@ author_profile: true
                         <h3 style="text-align: center;">Motivation</h3>
                         <i>A depth examination of the Action Spotting task within soccer matches revealed four main challenges: (1) the necessity for precise predictions, given the tight tolerances while evaluating the task; (2) a long-tail data distribution, where some of the actions occur infrequently; (3) the presence of noisy labels resulting from the subjective judgment of annotators in determining temporal locations; and (4) the non-visibility of certain actions due to replays or camera angles. ASTRA was designed with dedicated modules tailored to address each of the challenges.</i>
                     </div>
+                </div>
+                <div style="margin-top:20px">
+                    <figure>
+                        <picture>
+                            <img src="/images/ASTRA_diagram.png" class="figure-padding img-fluid rounded z-depth-1" width="100%" height="auto" title="ASTRA" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+                        </picture>
+                    </figure>
                 </div>
                 <div class="d-flex align-items-center justify-content-center" style="margin-top: 30px">
                     <div class="project-narrow" id="abstract" style="text-align: justify;">
