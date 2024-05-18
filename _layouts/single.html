@@ -46,12 +46,6 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {{ content }}
-
-        {% if page.excerpt and site.read_more != 'enabled' %}
-          <p class="page__excerpt">{{ page.excerpt | markdownify }}</p>
-        {% elsif page.excerpt and site.read_more == 'enabled' %}
-          <p class="page__excerpt">{{ page.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ page.url }}" rel="permalink"> Read more</a></strong></p>
-        {% endif %}
         
         {% if page.citation and page.paperurl and page.codeurl and page.pageurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">arXiv</a> | <a href="{{ page.codeurl }}">Code</a> | <a href="{{ page.pageurl }}">Page</a></p>
