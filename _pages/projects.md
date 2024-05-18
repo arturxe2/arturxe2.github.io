@@ -4,4 +4,6 @@ title: "Projects"
 author_profile: true
 ---
 
-Write here information projects. Let's redirect to project [ASTRA](/projects/ASTRA)
+- [ASTRA: An Action Spotting TRAnsformer for Soccer Videos](/projects/ASTRA) (ACM Multimedia Content Analysis in Sports '23)
+
+- [T-DEED: Temporal-Discriminability Enhancer Encoder-Decoder for Precise Event Spotting in Sports Videos](/projects/T-DEED) (CVPRW - CVsports'24)
