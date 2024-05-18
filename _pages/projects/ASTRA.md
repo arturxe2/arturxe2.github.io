@@ -46,13 +46,13 @@ author_profile: true
                 </div>
                 <div class="d-flex align-items-center justify-content-center" style="margin-top: 30px">
                     <div class="project-narrow" id="bibtex" style="text-align: left;">
-                        <h3 style="text-align: left; font-size: 10px;">BibTeX</h3>
+                        <h3 style="text-align: left;">BibTeX</h3>
                         <div class="bibtex">
-                            <i>@inproceedings{xarles2023astra,
-                                title={ASTRA: An Action Spotting TRAnsformer for Soccer Videos},
-                                author={Xarles, Artur and Escalera, Sergio and Moeslund, Thomas B and Clap{\'e}s, Albert},
-                                booktitle={Proceedings of the 6th International Workshop on Multimedia Content Analysis in Sports},
-                                pages={93--102},
+                            <i>@inproceedings{xarles2023astra,<br>
+                                title={ASTRA: An Action Spotting TRAnsformer for Soccer Videos},<br>
+                                author={Xarles, Artur and Escalera, Sergio and Moeslund, Thomas B and Clap{\'e}s, Albert},<br>
+                                booktitle={Proceedings of the 6th International Workshop on Multimedia Content Analysis in Sports},<br>
+                                pages={93--102},<br>
                                 year={2023}
                                 }</i>
                         </div>
