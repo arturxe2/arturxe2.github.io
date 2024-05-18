@@ -31,3 +31,26 @@
     </div>
   </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+
+    dropdownToggles.forEach(function(toggle) {
+      toggle.addEventListener('click', function(event) {
+        const submenu = toggle.nextElementSibling;
+        submenu.classList.toggle('submenu--active');
+        event.stopPropagation();
+      });
+    });
+
+    document.addEventListener('click', function(event) {
+      dropdownToggles.forEach(function(toggle) {
+        const submenu = toggle.nextElementSibling;
+        if (!submenu.contains(event.target) && submenu.classList.contains('submenu--active')) {
+          submenu.classList.remove('submenu--active');
+        }
+      });
+    });
+  });
+</script>
