@@ -1,5 +1,5 @@
 ---
-permalink: /projects/T-DEED
+permalink: /projects/T-DEED/
 author_profile: true
 ---
 

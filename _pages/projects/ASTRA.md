@@ -1,5 +1,5 @@
 ---
-permalink: /projects/ASTRA
+permalink: /projects/ASTRA/
 author_profile: true
 ---
 
