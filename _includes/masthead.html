@@ -50,59 +50,74 @@
 </head>
 <body>
 
-<div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li class="masthead__menu-item">
-              <a href="{{ domain }}{{ link.url }}" class="{% if link.subsections %}has-submenu{% endif %}">{{ link.title }}</a>
-              {% if link.subsections %}
-                <ul class="submenu">
-                  {% for subsection in link.subsections %}
-                    <li class="masthead__submenu-item">
-                      <a href="{{ domain }}{{ subsection.url }}">{{ subsection.title }}</a>
-                    </li>
-                  {% endfor %}
-                </ul>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  
+  <div class="masthead">
+    <div class="masthead__inner-wrap">
+      <div class="masthead__menu">
+        <nav id="site-nav" class="greedy-nav">
+          <button><div class="navicon"></div></button>
+          <ul class="visible-links">
+            <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+            {% for link in site.data.navigation.main %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = base_path %}
               {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
+              <li class="masthead__menu-item {% if link.subsections %}has-submenu{% endif %}">
+                <a href="{{ domain }}{{ link.url }}" class="menu-link">{% if link.subsections %}<span class="menu-toggle">{{ link.title }}</span>{% else %}{{ link.title }}{% endif %}</a>
+                {% if link.subsections %}
+                  <ul class="submenu">
+                    {% for subsection in link.subsections %}
+                      <li class="masthead__submenu-item">
+                        <a href="{{ domain }}{{ subsection.url }}">{{ subsection.title }}</a>
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+          <ul class="hidden-links hidden"></ul>
+        </nav>
+      </div>
     </div>
   </div>
-</div>
+  
+  <script src="scripts.js"></script>
+  
+  </body>
+  </html>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const menuItems = document.querySelectorAll('.has-submenu');
+document.addEventListener("DOMContentLoaded", function() {
+  const menuItems = document.querySelectorAll('.has-submenu .menu-toggle');
 
-    menuItems.forEach(function(item) {
-      item.addEventListener('click', function(event) {
-        event.preventDefault(); // Prevent the default link behavior
-        const parentItem = item.parentElement;
-        parentItem.classList.toggle('open');
-      });
-    });
-
-    document.addEventListener('click', function(event) {
-      if (!event.target.closest('.masthead__menu-item')) {
-        document.querySelectorAll('.masthead__menu-item.open').forEach(function(openItem) {
-          openItem.classList.remove('open');
-        });
-      }
+  menuItems.forEach(function(item) {
+    item.addEventListener('click', function(event) {
+      event.preventDefault(); // Prevent the default link behavior
+      const parentItem = item.closest('.masthead__menu-item');
+      parentItem.classList.toggle('open');
     });
   });
+
+  document.addEventListener('click', function(event) {
+    if (!event.target.closest('.masthead__menu-item')) {
+      document.querySelectorAll('.masthead__menu-item.open').forEach(function(openItem) {
+        openItem.classList.remove('open');
+      });
+    }
+  });
+});
 </script>
 
 </body>
