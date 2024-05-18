@@ -46,7 +46,7 @@ author_profile: true
                 </div>
                 <div class="d-flex align-items-center justify-content-center" style="margin-top: 30px">
                     <div class="project-narrow" id="bibtex" style="text-align: justify;">
-                        <h3 style="text-align: center;">BibTeX</h3>
+                        <h3 style="text-align: left;">BibTeX</h3>
                         <div class="bibtex">
                             <figure class="highlight">
                                 <pre>
