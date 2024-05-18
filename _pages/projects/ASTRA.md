@@ -73,7 +73,4 @@ author_profile: true
                         </div>
                     </div>
                 </div>
-                <p>
-                    <img data-src="/assets/img/belfusion/apde.png" class="lazy">
-                </p>
             </div>

@@ -75,17 +75,13 @@ author_profile: true
                     <div class="project-narrow" id="bibtex" style="text-align: left;">
                         <h3 style="text-align: center;">BibTeX</h3>
                         <div class="bibtex">
-                            <i>@inproceedings{xarles2023astra,<br>
-                                &emsp;title={ASTRA: An Action Spotting TRAnsformer for Soccer Videos},<br>
+                            <i>@inproceedings{xarles2024t,<br>
+                                &emsp;title={T-DEED: Temporal-Discriminability Enhancer Encoder-Decoder for Precise Event Spotting in Sports Videos},<br>
                                 &emsp;author={Xarles, Artur and Escalera, Sergio and Moeslund, Thomas B and Clap{\'e}s, Albert},<br>
-                                &emsp;booktitle={Proceedings of the 6th International Workshop on Multimedia Content Analysis in &emsp;Sports},<br>
-                                &emsp;pages={93--102},<br>
-                                &emsp;year={2023}<br>
+                                &emsp;journal={arXiv preprint arXiv:2404.05392},<br>
+                                &emsp;year={2024}<br>
                                 }</i>
                         </div>
                     </div>
                 </div>
-                <p>
-                    <img data-src="/assets/img/belfusion/apde.png" class="lazy">
-                </p>
             </div>
