@@ -43,26 +43,26 @@ author_profile: true
                 <div style="margin-top:20px">
                     <figure>
                         <picture>
-                            <img src="/images/nonvisible.png" class="figure-padding img-fluid rounded z-depth-1" width="100%" height="auto" title="ASTRA" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+                            <img src="/images/discriminabilityFD.png" class="figure-padding img-fluid rounded z-depth-1" width="100%" height="auto" title="ASTRA" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
                         </picture>
                     </figure>
                 </div>
                 <div class="d-flex align-items-center justify-content-center" style="margin-top: 30px">
                     <div class="project-narrow" id="abstract" style="text-align: justify;">
                         <h3 style="text-align: center;">Architecture</h3>
-                        Our solution, ASTRA, leverages embeddings \( \mathcal{E} \) from multiple modalities to achieve its goals. Specifically, ASTRA is built upon \( | \mathcal{E} | - 1 \) pre-computed visual embeddings, complemented by an additional audio embedding derived from the log-mel spectrogram of the audio using a VGG-inspired backbone. The network responsible for generating this audio embedding is jointly trained with the ASTRA model. The embeddings are input to the model in clips spanning a duration of \( T \) seconds.
+                        <i>Our solution, ASTRA, leverages embeddings \( \mathcal{E} \) from multiple modalities to achieve its goals. Specifically, ASTRA is built upon \( | \mathcal{E} | - 1 \) pre-computed visual embeddings, complemented by an additional audio embedding derived from the log-mel spectrogram of the audio using a VGG-inspired backbone. The network responsible for generating this audio embedding is jointly trained with the ASTRA model. The embeddings are input to the model in clips spanning a duration of \( T \) seconds.
 
                         These features from each backbone are processed in parallel streams, where Point-wise Feed-Forward Networks (PFFN) project them to a common dimension \( d \). The projected embeddings are then combined in the subsequent Transformer encoder-decoder module, with learnable queries in the decoder. Inspired by the architecture proposed in DETR, this module enables ASTRA to handle different input and output temporal dimensions \( L_{\text{in}} \) and \( L_{\text{out}} \), respectively, and facilitates a straightforward fusion of multiple embeddings.
 
                         To enhance ASTRA's ability to capture fine-grained details, we introduce a temporally hierarchical architecture for the Transformer encoder. This architecture enables the encoder to attend to more local information in the initial layers and reduces the computational cost. Finally, ASTRA employs two prediction heads to generate classification and displacement predictions for the anchors introduced by Soares et al. These anchors correspond to specific temporal positions and class actions, as described in their work. Additionally, we adopt their suggestion of employing a radius for both classification and displacement \( r_{c} \) and \( r_{d} \), respectively, to define the temporal range around a ground-truth action within which it can be detected.
 
-                        Furthermore, to account for label uncertainty, ASTRA adapts the prediction head responsible for displacement by modeling them as Gaussian distributions instead of deterministic temporal positions. This allows ASTRA to capture temporal location uncertainty and provide a more comprehensive representation of the actions. Additionally, ASTRA incorporates a balanced mixup technique to improve model generalization and accommodate the long-tail distribution of the data.
+                        Furthermore, to account for label uncertainty, ASTRA adapts the prediction head responsible for displacement by modeling them as Gaussian distributions instead of deterministic temporal positions. This allows ASTRA to capture temporal location uncertainty and provide a more comprehensive representation of the actions. Additionally, ASTRA incorporates a balanced mixup technique to improve model generalization and accommodate the long-tail distribution of the data.</i>
                     </div>
                 </div>
                 <div style="margin-top:20px">
                     <figure>
                         <picture>
-                            <img src="/images/ASTRA_diagram.png" class="figure-padding img-fluid rounded z-depth-1" width="100%" height="auto" title="Nonvisible" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+                            <img src="/images/modelArchitecture.png" class="figure-padding img-fluid rounded z-depth-1" width="100%" height="auto" title="Nonvisible" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
                         </picture>
                     </figure>
                 </div>
