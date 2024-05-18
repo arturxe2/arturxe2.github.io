@@ -19,7 +19,7 @@ In 2021, I earned my Bachelor's degree in Applied Statistics from <a href="https
   <b> Apr 5, 2024</b>
   </div>
   <div style="flex: 4;">
-    <u>T-DEED</u> has been accepted at CVsports at CVPRW.🥳
+    <u>[T-DEED](/projects/T-DEED)</u> has been accepted at CVsports at CVPRW.🥳
   </div>
 </div>
 <br>
@@ -28,7 +28,7 @@ In 2021, I earned my Bachelor's degree in Applied Statistics from <a href="https
   <b> Aug 1, 2023</b>
   </div>
   <div style="flex: 4;">
-    My first PhD publication, <u>ASTRA</u>, has been accepted at ACM Workshop on Multimedia Content Analysis in Sports.🤩
+    My first PhD publication, <u>[ASTRA](/projects/ASTRA)</u>, has been accepted at ACM Workshop on Multimedia Content Analysis in Sports.🤩
   </div>
 </div>
 <br>
