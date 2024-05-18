@@ -3,6 +3,8 @@ permalink: /projects/ASTRA
 author_profile: true
 ---
 
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <div class="post">
                 <header class="project-title" style="text-align: center; margin-top: 2em">
                     <h1 class="project-title" style="font-weight: bold; color: #404040">ASTRA: An Action Spotting TRAnsformer for Soccer Videos</h1>
