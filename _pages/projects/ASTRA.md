@@ -51,7 +51,7 @@ author_profile: true
                             <i>@inproceedings{xarles2023astra,<br>
                                 &emsp;title={ASTRA: An Action Spotting TRAnsformer for Soccer Videos},<br>
                                 &emsp;author={Xarles, Artur and Escalera, Sergio and Moeslund, Thomas B and Clap{\'e}s, Albert},<br>
-                                &emsp;booktitle={Proceedings of the 6th International Workshop on Multimedia Content Analysis in Sports},<br>
+                                &emsp;booktitle={Proceedings of the 6th International Workshop on Multimedia Content Analysis in &emsp;Sports},<br>
                                 &emsp;pages={93--102},<br>
                                 &emsp;year={2023}<br>
                                 }</i>
