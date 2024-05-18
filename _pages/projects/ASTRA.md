@@ -48,32 +48,13 @@ author_profile: true
                     <div class="project-narrow" id="bibtex" style="text-align: left;">
                         <h3 style="text-align: left; font-size: 10px;">BibTeX</h3>
                         <div class="bibtex">
-                            <figure class="highlight">
-                                <pre>
-                                    <code class="language-bibtex" data-lang="bibtex">
-                                        <span class="nc">@inproceedings</span>
-                                        <span class="p">{</span>
-                                        <span class="nl">xarles2023astra</span>
-                                        <span class="p">,</span>
-                                        <span class="na">title</span>
-                                        <span class="p">=</span>
-                                        <span class="s">{ASTRA: An Action Spotting TRAnsformer for Soccer Videos}</span>
-                                        <span class="p">,</span>
-                                        <span class="na">author</span>
-                                        <span class="p">=</span>
-                                        <span class="s">{Xarles, Artur and Escalera, Sergio and Moeslund, Thomas B and Clap{\'e}s, Albert}</span>
-                                        <span class="p">,</span>
-                                        <span class="na">booktitle</span>
-                                        <span class="p">=</span>
-                                        <span class="s">{Proceedings of the 6th International Workshop on Multimedia Content Analysis in Sports}</span>
-                                        <span class="p">,</span>
-                                        <span class="na">year</span>
-                                        <span class="p">=</span>
-                                        <span class="s">{2023}</span>
-                                        <span class="p">}</span>
-                                    </code>
-                                </pre>
-                            </figure>
+                            <i>@inproceedings{xarles2023astra,
+                                title={ASTRA: An Action Spotting TRAnsformer for Soccer Videos},
+                                author={Xarles, Artur and Escalera, Sergio and Moeslund, Thomas B and Clap{\'e}s, Albert},
+                                booktitle={Proceedings of the 6th International Workshop on Multimedia Content Analysis in Sports},
+                                pages={93--102},
+                                year={2023}
+                                }</i>
                         </div>
                     </div>
                 </div>
