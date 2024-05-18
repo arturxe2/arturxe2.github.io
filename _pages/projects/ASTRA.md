@@ -49,11 +49,11 @@ author_profile: true
                         <h3 style="text-align: center;">BibTeX</h3>
                         <div class="bibtex">
                             <i>@inproceedings{xarles2023astra,<br>
-                                title={ASTRA: An Action Spotting TRAnsformer for Soccer Videos},<br>
-                                author={Xarles, Artur and Escalera, Sergio and Moeslund, Thomas B and Clap{\'e}s, Albert},<br>
-                                booktitle={Proceedings of the 6th International Workshop on Multimedia Content Analysis in Sports},<br>
-                                pages={93--102},<br>
-                                year={2023}
+                                &emsp;title={ASTRA: An Action Spotting TRAnsformer for Soccer Videos},<br>
+                                &emsp;author={Xarles, Artur and Escalera, Sergio and Moeslund, Thomas B and Clap{\'e}s, Albert},<br>
+                                &emsp;booktitle={Proceedings of the 6th International Workshop on Multimedia Content Analysis in Sports},<br>
+                                &emsp;pages={93--102},<br>
+                                &emsp;year={2023}<br>
                                 }</i>
                         </div>
                     </div>
