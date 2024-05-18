@@ -22,7 +22,7 @@ author_profile: true
                 <div style="margin-top:20px">
                     <figure>
                         <picture>
-                            <img src="/images/nonvisible.png" class="figure-padding img-fluid rounded z-depth-1" width="100%" height="auto" title="Nonvisible" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+                            <img src="/images/ASTRA_diagram.png" class="figure-padding img-fluid rounded z-depth-1" width="100%" height="auto" title="Nonvisible" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
                         </picture>
                     </figure>
                 </div>
@@ -41,7 +41,7 @@ author_profile: true
                 <div style="margin-top:20px">
                     <figure>
                         <picture>
-                            <img src="/images/ASTRA_diagram.png" class="figure-padding img-fluid rounded z-depth-1" width="100%" height="auto" title="ASTRA" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+                            <img src="/images/nonvisible.png" class="figure-padding img-fluid rounded z-depth-1" width="100%" height="auto" title="ASTRA" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
                         </picture>
                     </figure>
                 </div>
