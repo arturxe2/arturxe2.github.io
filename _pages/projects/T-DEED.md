@@ -43,7 +43,7 @@ author_profile: true
                 <div style="margin-top:20px">
                     <figure>
                         <picture>
-                            <img src="/images/discriminabilityFD.png" class="figure-padding img-fluid rounded z-depth-1" width="100%" height="auto" title="ASTRA" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+                            <img src="/images/discriminabilityFD.png" class="figure-padding img-fluid rounded z-depth-1" width="100%" height="auto" title="Discriminability" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
                         </picture>
                     </figure>
                 </div>
@@ -64,10 +64,23 @@ author_profile: true
                         </p>
                     </div>
                 </div>
+                <div style="margin-top:20px"> 
+                    <video width="100%" height="auto" controls>
+                        <source src="/videos/QualitativeFD.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="d-flex align-items-center justify-content-center" style="margin-top: 30px">
+                    <div class="project-narrow" id="abstract" style="text-align: justify;">
+                        <h3 style="text-align: center;">Qualitative results</h3>
+                        <p>
+                            Here we present qualitative results for both datasets, showing strong performance across both.
+                        </p>
+                    </div>
+                </div>
                 <div style="margin-top:20px">
                     <figure>
                         <picture>
-                            <img src="/images/modelArchitecture.png" class="figure-padding img-fluid rounded z-depth-1" width="100%" height="auto" title="Nonvisible" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+                            <img src="/images/modelArchitecture.png" class="figure-padding img-fluid rounded z-depth-1" width="100%" height="auto" title="Model Architecture" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
                         </picture>
                     </figure>
                 </div>
