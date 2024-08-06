@@ -16,6 +16,24 @@ In 2021, I earned my Bachelor's degree in Applied Statistics from <a href="https
 
 <div style="display: flex; flex-direction: row; gap: 20px;">
   <div style="flex: 1;">
+  <b> Jul 13, 2024</b>
+  </div>
+  <div style="flex: 4;">
+    I have attended the International Computer Vision Summer School (<a href="https://iplab.dmi.unict.it/icvss2024/">ICVSS'24</a>) in Sicily. 🇮🇹
+  </div>
+</div>
+<br>
+<div style="display: flex; flex-direction: row; gap: 20px;">
+  <div style="flex: 1;">
+  <b> Jun 18, 2024</b>
+  </div>
+  <div style="flex: 4;">
+    <a href="https://arturxe2.github.io/projects/T-DEED">T-DEED</a> has achieved first place in the <a href="https://www.soccer-net.org/challenges/2024">SoccerNet Ball Action Spotting Challenge</a>.🥳
+  </div>
+</div>
+<br>
+<div style="display: flex; flex-direction: row; gap: 20px;">
+  <div style="flex: 1;">
   <b> Apr 5, 2024</b>
   </div>
   <div style="flex: 4;">
