@@ -6,7 +6,6 @@ excerpt: "<strong>Abstract:</strong> Action Valuation (AV) has emerged as a key 
 date: 2025-04-01
 venue: 'CVPRW - CVSports'
 paperurl: 'TBD'
-codeurl: 'TBD'
-pageurl: 'TBD'
+pageurl: 'https://arturxe2.github.io/projects/ActionValuationSurvey/'
 citation: 'TBD'
 ---
