@@ -20,7 +20,7 @@ In 2021, I earned my Bachelor's degree in Applied Statistics from <a href="https
   <b> Mar 28, 2025</b>
   </div>
   <div style="flex: 4;">
-    Two papers have been accepted at the CVSports Workshop at CVPR 2025! 🥳 <a href="https://arturxe2.github.io/projects/ActionValuationSurvey">Action Valuation in Sports: A Survey</a> and Action Anticipation from SoccerNet Football Video Broadcasts.  
+    Two papers have been accepted at the CVSports Workshop at CVPR 2025!🥳 <a href="https://arturxe2.github.io/projects/ActionValuationSurvey">Action Valuation in Sports: A Survey</a> and Action Anticipation from SoccerNet Football Video Broadcasts.  
   </div>
 </div>
 <br>
