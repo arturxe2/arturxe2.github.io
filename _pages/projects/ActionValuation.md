@@ -16,6 +16,9 @@ author_profile: true
                         , and <a href="https://scholar.google.es/citations?user=n4BtpPsAAAAJ&hl=ca&oi=ao&amp;hl=en&amp;oi=ao" rel="external nofollow noopener" target="_blank">Albert Clapés</a>
                     </h3>
                     <h5>University of Barcelona, Computer Vision Center, and Aalborg University</h5>
+                    <div class="publications project-links">
+                        <a href="https://arxiv.org/abs/2504.06163" class="btn" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+                    </div>
                 <div class="d-flex align-items-center justify-content-center" style="margin-top: 30px">
                     <div class="project-narrow" id="abstract" style="text-align: justify;">
                         <h3 style="text-align: center;">Abstract</h3>
