@@ -8,4 +8,5 @@ codeurl: 'https://github.com/MohamadDalal/SoccerNetAnticipation'
 pageurl: 'https://github.com/MohamadDalal/SoccerNetAnticipation'
 date: 2025-03-01
 venue: 'CVPRW - CVSports'
+citation: 'Dalal, M., <u>Xarles, A.</u>, Cioppa, A., Giancola, S., Van Droogenbroeck, M., Ghanem, B., ... & Moeslund, T. B. (2025). Action Anticipation from SoccerNet Football Video Broadcasts. arXiv preprint arXiv:2504.12021.'
 ---
