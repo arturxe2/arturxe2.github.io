@@ -19,6 +19,7 @@ author_profile: true
                     <div class="publications project-links">
                         <a href="https://arxiv.org/abs/2404.05392" class="btn" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
                         <a href="https://github.com/arturxe2/T-DEED" class="btn" role="button" rel="external nofollow noopener" target="_blank">Code</a>
+                        <a href="/files/TDEED_Revisited.pdf" class="btn" role="button" download>Extended Paper</a>
                     </div>
                 </header>
                 <div style="margin-top:20px">
