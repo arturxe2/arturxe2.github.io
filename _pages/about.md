@@ -8,6 +8,7 @@ redirect_from:
 
 <div style="text-align: justify"> 
 My name is <b>Artur Xarles</b>, a final-year PhD researcher combining computer vision and data science to understand sports. My work focuses on localizing and anticipating actions in video, tracking players and the ball, and assessing how actions contribute to team performance. Sports have been part of my life since childhood, both as a player and a fan. I want to combine that passion with my technical expertise to develop technologies that improve how sports are analyzed and understood.
+</div>
 
 ## News
 
