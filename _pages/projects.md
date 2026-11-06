@@ -4,9 +4,9 @@ title: "Projects"
 author_profile: true
 ---
 
-- [AdaSpot: Spend Resolution Where It Matters for Precise Event Spotting](/projects/AdaSpot/) (CVPR '26)
-
 - [Benchmarking Action Valuation in Football: From Standardized Evaluation to Systematic Spatio-Temporal Model Design](/projects/ActionValuationBenchmark/) (Submitted)
+
+- [AdaSpot: Spend Resolution Where It Matters for Precise Event Spotting](/projects/AdaSpot/) (CVPR '26)
 
 - [Action Valuation in Sports: A Survey](/projects/ActionValuationSurvey/) (CVPRW - CVSports '25)
 
