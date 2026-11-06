@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 <div style="text-align: justify"> 
-My name is <b>Artur Xarles</b>, and I am currently pursuing a PhD at <a href="https://web.ub.edu/es/inicio">Universitat de Barcelona</a> under the supervision of Prof. <a href="https://scholar.google.es/citations?user=oI6AIkMAAAAJ&hl=ca&oi=ao">Sergio Escalera</a>, Prof. <a href="https://scholar.google.es/citations?user=n4BtpPsAAAAJ&hl=ca&oi=ao">Albert Clapés</a>, and Prof. <a href="https://scholar.google.es/citations?user=XmkDts4AAAAJ&hl=ca&oi=ao">Thomas B. Moeslund</a>. My primary research interests lie in the field of computer vision, with a particular focus on video understanding, especially applied to sports. My recent contributions have focused on advancing the state of the art in action spotting in videos of various sports. <br> <br>
+My name is <b>Artur Xarles</b>, and I am a Computer Vision Researcher and Sports Data Scientist in the final year of my PhD at <a href="https://web.ub.edu/es/inicio">Universitat de Barcelona</a>, supervised by Prof. <a href="https://scholar.google.es/citations?user=oI6AIkMAAAAJ&hl=ca&oi=ao">Sergio Escalera</a>, Prof. <a href="https://scholar.google.es/citations?user=n4BtpPsAAAAJ&hl=ca&oi=ao">Albert Clapés</a>, and Prof. <a href="https://scholar.google.es/citations?user=XmkDts4AAAAJ&hl=ca&oi=ao">Thomas B. Moeslund</a>. My research focuses on computer vision for sports, especially video understanding and action spotting in broadcast footage. <br> <br>
 
 In 2021, I earned my Bachelor's degree in Applied Statistics from <a href="https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467950436.html">Universitat Autònoma de Barcelona</a> (UAB), followed by a Master's degree in Fundamental Principles of Data Science from Universitat de Barcelona (UB). My Master's thesis, supervised by Sergio Escalera and Albert Clapés in the <a href="https://sergioescalera.com/students/">HuPBA group</a>, was centered on the task of action spotting in soccer videos. This work received the award for the second-best BSc or MSc thesis in Applied Artificial Intelligence from the <a href="https://www.acia.cat/">Catalan Association for Artificial Intelligence</a>.
 </div>
@@ -15,6 +15,33 @@ In 2021, I earned my Bachelor's degree in Applied Statistics from <a href="https
 ## News
 
 
+<div style="display: flex; flex-direction: row; gap: 20px;">
+  <div style="flex: 1;">
+  <b> Jun 4, 2026</b>
+  </div>
+  <div style="flex: 4;">
+    I co-organized the <a href="https://vap.aau.dk/cvsports/">12th International Workshop on Computer Vision in Sports (CVsports)</a> at CVPR 2026.
+  </div>
+</div>
+<br>
+<div style="display: flex; flex-direction: row; gap: 20px;">
+  <div style="flex: 1;">
+  <b> Feb 20, 2026</b>
+  </div>
+  <div style="flex: 4;">
+    <a href="/files/4-AdaSpot.pdf">AdaSpot</a> has been accepted to CVPR 2026! 🥳
+  </div>
+</div>
+<br>
+<div style="display: flex; flex-direction: row; gap: 20px;">
+  <div style="flex: 1;">
+  <b> Jul 2025</b>
+  </div>
+  <div style="flex: 4;">
+    I began a research stay in computer vision at Game On Technologies in Maastricht (July–November 2025), where I developed AdaSpot and guided MSc projects on player and ball tracking and multi-camera video stitching using professional football footage.
+  </div>
+</div>
+<br>
 <div style="display: flex; flex-direction: row; gap: 20px;">
   <div style="flex: 1;">
   <b> Mar 28, 2025</b>
