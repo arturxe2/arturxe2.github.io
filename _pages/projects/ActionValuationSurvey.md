@@ -8,7 +8,7 @@ author_profile: true
 <div class="post">
                 <header class="project-title" style="text-align: center; margin-top: 2em">
                     <h1 class="project-title" style="font-weight: bold; color: #404040">Action Valuation in Sports: A Survey</h1>
-                    <p class="project-venue" style="font-size: 1.0em;">CVSports Workshop at CVPR, 2025 </p>
+                    <p class="project-venue" style="font-size: 1.0em;">CVsports Workshop at CVPR, 2025 </p>
                     <h3>
                         <a href="https://scholar.google.es/citations?user=MNdw5eYAAAAJ&hl=ca&amp;hl=en" rel="external nofollow noopener" target="_blank">Artur Xarles</a>
                         , <a href="https://scholar.google.com/citations?user=oI6AIkMAAAAJ&amp;hl=en&amp;oi=ao" rel="external nofollow noopener" target="_blank">Sergio Escalera</a>

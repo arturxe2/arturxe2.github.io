@@ -12,7 +12,6 @@ My name is <b>Artur Xarles</b>, a final-year PhD researcher combining computer v
 
 ## News
 
-
 <div style="display: flex; flex-direction: row; gap: 20px;">
   <div style="flex: 1;">
   <b> Jun 4, 2026</b>
@@ -27,7 +26,7 @@ My name is <b>Artur Xarles</b>, a final-year PhD researcher combining computer v
   <b> Feb 20, 2026</b>
   </div>
   <div style="flex: 4;">
-    <a href="https://arturxe2.github.io/projects/AdaSpot">AdaSpot</a> has been accepted to CVPR 2026! 🥳
+    <a href="/projects/AdaSpot/">AdaSpot</a> has been accepted to CVPR 2026! 🥳
   </div>
 </div>
 <br>
@@ -45,7 +44,7 @@ My name is <b>Artur Xarles</b>, a final-year PhD researcher combining computer v
   <b> Mar 28, 2025</b>
   </div>
   <div style="flex: 4;">
-    Two papers have been accepted at the CVSports Workshop at CVPR 2025!🥳 <a href="https://arturxe2.github.io/projects/ActionValuationSurvey">Action Valuation in Sports: A Survey</a> and Action Anticipation from SoccerNet Football Video Broadcasts.  
+    Two papers have been accepted at the CVSports Workshop at CVPR 2025!🥳 <a href="/projects/ActionValuationSurvey/">Action Valuation in Sports: A Survey</a> and Action Anticipation from SoccerNet Football Video Broadcasts.  
   </div>
 </div>
 <br>
